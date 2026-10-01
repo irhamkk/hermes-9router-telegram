@@ -1,0 +1,13 @@
+# REFERENCE ONLY.
+# Current Hermes versions keep Telegram secrets/allowlists in ~/.hermes/.env.
+# install.sh writes them using `hermes config set UPPER_SNAKE_KEY value`.
+
+# ~/.hermes/.env
+# TELEGRAM_BOT_TOKEN=CHANGE_ME_TELEGRAM_BOT_TOKEN
+# TELEGRAM_ALLOWED_USERS=123456789
+# TELEGRAM_HOME_CHANNEL=123456789
+# TELEGRAM_GROUP_ALLOWED_CHATS=-1001234567890
+
+# Optional YAML-only Telegram behavior can live in ~/.hermes/config.yaml.
+telegram:
+  require_mention: true

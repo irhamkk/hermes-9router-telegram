@@ -1,0 +1,8 @@
+# REFERENCE ONLY — install.sh writes these values to ~/.hermes/config.yaml.
+# Do not place a real API key in this repository.
+
+model:
+  default: CHANGE_ME_MODEL_ID
+  provider: custom
+  base_url: http://127.0.0.1:20128/v1
+  api_key: CHANGE_ME_9ROUTER_API_KEY
